@@ -1,0 +1,118 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Caladea:ital,wght@1,700&family=Dancing+Script:wght@500;700&family=Noto+Sans:ital,wght@0,600;1,200&family=Poppins:wght@100&family=Roboto+Condensed&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Caladea:ital,wght@1,700&family=Dancing+Script:wght@500;700&family=Noto+Sans:ital,wght@0,600;1,200&family=Pacifico&family=Poppins:wght@100&family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.book
+{
+    background-image: url("https://i.pinimg.com/originals/e1/9c/47/e19c47506e1901acaf2de89de4f2edc5.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.book .spells
+{
+    position: absolute;
+    background-color: aqua;
+    width: 30%;
+    left:10%;
+    top:0%;
+    
+}
+.book .btn
+{
+    position: absolute;
+    top:80%;
+    left:65%;
+}
+.book .spells .s
+{
+    position: absolute;
+    
+    
+    animation: view 1.5s 1 forwards;
+}
+.two,.three,.four,.five,.six,.seven,.eight,.nine,.ten,.eleven,.twelve,.thirteen,.fourteen,.fifteen,.sixteen,.seventeen,.eightteen
+{
+    display: none;
+}
+.book .spells .s h1{
+    
+    width: 100%;
+    text-align: center;
+    font-size: 5vw;
+    margin: 1rem;
+    font-family: 'Dancing Script', cursive;
+    color:rgb(36, 35, 35);
+}
+.book .spells .s p
+{
+    
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Pacifico', cursive;
+}
+.book .btn button
+{
+    width:25rem;
+    height: 5rem;
+    font-size: 3vw;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family: 'Pacifico', cursive;
+}
+.book .btn button:hover{
+    color: rgb(59, 57, 57);
+    cursor: grab;
+}
+img
+{
+    margin:1rem;
+    border-radius: 2rem;
+    width: 100%;
+}
+.five
+{
+    background-image: url("https://media.tenor.com/SdNvFkKzv4MAAAAC/expecto-patronum-harry-potter.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 80%;
+    border-radius: 5rem;
+}
+
+@keyframes view {
+    0%
+    {
+        opacity:0.2;
+    }
+    25%
+    {
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 0.7;
+    }
+    75%
+    {
+        opacity: 0.9;
+    }
+    100%{
+        opacity: 1;
+    }
+
+    
+}
+
