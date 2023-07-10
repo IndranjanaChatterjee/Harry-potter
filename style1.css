@@ -1,87 +1,96 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Belanosima:wght@600&family=Fraunces:wght@400;700&family=Freehand&family=Montserrat:wght@400;500;600&family=Outfit:wght@200;400;700&family=Playfair:wght@600&family=Raleway:wght@400;500&family=Roboto+Slab&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    /* background-image: url("https://e0.pxfuel.com/wallpapers/972/538/desktop-wallpaper-harry-potter-background-for-your-mobile-tablet-explore-harry-potter-background-hogwarts-harry-potter-game.jpg");
-    background-size: 100% 100%;
-    background-position: center;
-    background-attachment: fixed; */
-    background: linear-gradient(to bottom right,rgb(212, 77, 246),rgb(239, 72, 99),rgb(239, 216, 45));
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url("https://e0.pxfuel.com/wallpapers/972/538/desktop-wallpaper-harry-potter-background-for-your-mobile-tablet-explore-harry-potter-background-hogwarts-harry-potter-game.jpg");
+  background-size: 100% 100%;
+  background-position: center;
+  background-attachment: fixed;
+
+  font-family: "Freehand", cursive;
+
+  
 }
-h1{
-    background-image: url("https://cdn.wallpapersafari.com/4/55/stSVQd.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10rem;
-    font-size: 10vw;
-    color: white;
-    padding: 2rem;
-    margin: 1rem;
-    border-radius: 5rem;
+h1 {
+  
+  backdrop-filter: blur(5rem);
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  font-size: 10vw;
+  color: white;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 5rem;
+  letter-spacing: 1.5rem;
 }
-.content{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
-.p{
-    background-color: black;
-    height: 25rem;
-    width: 20rem;
-    margin: 1rem;
-    display: flex;
-    justify-content: center;
-    border-radius: 3rem;
-    
+.p {
+  
+  height: 25rem;
+  width: 20rem;
+  margin: 1.5rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 3rem;
 }
 
-.p img{
-    height: 100%;
-    width: 50%;
+.p img {
+  height: 100%;
+  width: 50%;
+  transition: all 0.3s ease-in-out;
 }
-#sirius,#moody,#george,#belatrix,#flitwick,#snape
+.p img:hover
 {
-    height: 100%;
-    width: 100%;
+    transform: scale(0.9);
+    cursor: pointer;
 }
-.g
-{
-    /* background: linear-gradient(brown,white); */
-    background-image: url("logo.png");
-    background-size: cover;
-    background-position: center;
-    background-color: rgb(189, 21, 21);
+#sirius,
+#moody,
+#george,
+#belatrix,
+#flitwick,
+#snape {
+  height: 100%;
+  width: 100%;
 }
-.s{
-    background-image: url("sly.png");
-    background-size: cover;
-    background-position: center;
-    background-color:green;
-
+.g {
+  /* background: linear-gradient(brown,white); */
+  background-image: url("logo.png");
+  background-size: cover;
+  background-position: center;
+  background-color:  #740001 ;
 }
-.r{
-    background-image: url("https://www.pngmart.com/files/8/Ravenclaw-PNG-Transparent-Images.png");
-    background-size: cover;
-    background-position: center;
-    background-color:blue;
-
+.s {
+  background-image: url("sly.png");
+  background-size: cover;
+  background-position: center;
+  background-color:  #2A623D ;
 }
-.nineteen
-{
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/494/399/714/harry-potter-hogwarts-castle-wallpaper-preview.jpg");
-    background-position: center;
-    background-size: cover;
+.r {
+  background-image: url("https://www.pngmart.com/files/8/Ravenclaw-PNG-Transparent-Images.png");
+  background-size: cover;
+  background-position: center;
+  background-color:  #0F1D4A ;
+}
+.nineteen {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/494/399/714/harry-potter-hogwarts-castle-wallpaper-preview.jpg");
+  background-position: center;
+  background-size: cover;
 }

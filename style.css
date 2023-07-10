@@ -51,6 +51,11 @@ nav ul li:hover
     cursor: pointer;
     text-shadow: 2px 2px 8px #87BCDE;
 }
+nav ul li a
+{
+    text-decoration: none;
+    color: var(--chocolate);
+}
 #harry{
     width: 50%;
 }
