@@ -9,13 +9,17 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background-image: url("https://e0.pxfuel.com/wallpapers/972/538/desktop-wallpaper-harry-potter-background-for-your-mobile-tablet-explore-harry-potter-background-hogwarts-harry-potter-game.jpg");
+    /* background-image: url("https://e0.pxfuel.com/wallpapers/972/538/desktop-wallpaper-harry-potter-background-for-your-mobile-tablet-explore-harry-potter-background-hogwarts-harry-potter-game.jpg");
     background-size: 100% 100%;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+    background: linear-gradient(to bottom right,rgb(212, 77, 246),rgb(239, 72, 99),rgb(239, 216, 45));
 }
 h1{
-    backdrop-filter: blur(5rem);
+    background-image: url("https://cdn.wallpapersafari.com/4/55/stSVQd.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,7 +76,7 @@ h1{
     background-image: url("https://www.pngmart.com/files/8/Ravenclaw-PNG-Transparent-Images.png");
     background-size: cover;
     background-position: center;
-    background-color:rgb(87, 87, 219);
+    background-color:blue;
 
 }
 .nineteen
