@@ -11,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-image: url("https://e0.pxfuel.com/wallpapers/972/538/desktop-wallpaper-harry-potter-background-for-your-mobile-tablet-explore-harry-potter-background-hogwarts-harry-potter-game.jpg");
+  background-image: url("https://w0.peakpx.com/wallpaper/219/340/HD-wallpaper-hogwarts-legacy-fantasy-harry-potter.jpg");
   background-size: 100% 100%;
   background-position: center;
   background-attachment: fixed;
@@ -58,7 +58,7 @@ h1 {
 }
 .p img:hover
 {
-    transform: scale(0.9);
+    transform: scale(1.05);
     cursor: pointer;
 }
 #sirius,
