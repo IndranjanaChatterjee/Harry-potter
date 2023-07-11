@@ -1,66 +1,103 @@
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Belanosima:wght@600&family=Fraunces:wght@400;700&family=Freehand&family=Merriweather:ital,wght@0,700;1,900&family=Montserrat:wght@400;500;600&family=Outfit:wght@200;400;700&family=Playfair:wght@600&family=Raleway:wght@400;500&family=Roboto+Slab&display=swap");
+
+  @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Belanosima:wght@600&family=Fraunces:wght@400;700&family=Freehand&family=Merriweather:ital,wght@0,700;1,900&family=Montserrat:wght@400;500;600&family=Outfit:wght@200;400;700&family=Playfair:wght@600&family=Raleway:wght@400;500&family=Roboto+Slab&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url("https://twinfinite.net/wp-content/uploads/2023/02/Hogwarts-Legacy-Portkey-Games-Avalanche-Studios.jpeg?fit=1200%2C675");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://twinfinite.net/wp-content/uploads/2023/02/Hogwarts-Legacy-Portkey-Games-Avalanche-Studios.jpeg?fit=1200%2C675");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-.container
-{
-    min-height: 100vh;
-    width: 50%;
-    position: relative;
-    backdrop-filter: blur(5rem);
-    padding: 2rem;
+.container {
+  height: 50rem;
+  width: 50%;
+  position: relative;
+  backdrop-filter: blur(5rem);
+  padding: 2rem;
+  margin: 1rem auto;
+  border-radius: 2rem;
+  
 }
-.img
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  height: 27%;
+  width: 27%;
+  border-radius: 2rem;
+  transition: all 0.5s ease-in-out;
+}
+img:hover
 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+button {
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  font-size: 7rem;
+  background-color: transparent;
+  border: none;
+  color:#472C1B;
+}
+button:hover
+{
+    color: #19120e;
+    cursor: pointer;
+}
+#right {
+  top: 30rem;
+  left: 50rem;
+  
+}
+#left {
+  top: 30rem;
+  right: 50rem;
+}
+.container section {
+  position: absolute;
+}
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven {
+  display: none;
+}
+.content {
+  margin: 2rem;
+  height: 15rem;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  font-family: 'Agdasima', sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 1.5rem;
+  color: #2A0C4E;
+  
+}
+h1,h2{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    padding: 1rem;
     
 }
-img{
-    height: 20%;
-    width: 20%;
+h1{
+    font-size: 3rem;
 }
-button
-{
-    position: absolute;
-    width: 5rem;
-    height: 5rem;
-    font-size: 5rem;
-}
-#right{
-    top:30rem;
-    left:50rem;
-}
-#left
-{
-    top:30rem;
-    right:50rem;
-}
-.container section
-{
-    position: absolute;
-}
-.two,.three
-{
-    display: none;
-}
-.content
-{
-    margin: 2rem;
-    height: 25rem;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
+h2{
+    font-size: 2rem;
+    text-decoration: underline;
 }
