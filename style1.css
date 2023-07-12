@@ -30,10 +30,10 @@ h1 {
   height: 10rem;
   font-size: 10vw;
   color: white;
-  padding: 2rem;
+  padding: 1rem;
   margin: 1rem;
   border-radius: 5rem;
-  letter-spacing: 1.5rem;
+  letter-spacing: 1.5vw;
 }
 .content {
   display: flex;
