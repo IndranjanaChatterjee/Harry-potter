@@ -22,7 +22,7 @@ body {
   width: 50%;
   position: relative;
   backdrop-filter: blur(5rem);
-  padding: 2rem;
+  padding: 3vw;
   margin: 1rem auto;
   border-radius: 2rem;
   
@@ -58,16 +58,17 @@ button:hover
     cursor: pointer;
 }
 #right {
-  top: 30rem;
-  left: 50rem;
+  top: 50%;
+  left: 100%;
   
 }
 #left {
-  top: 30rem;
-  right: 50rem;
+  top: 50%;
+  right: 100%;
 }
 .container section {
   position: absolute;
+  margin: auto;
 }
 .two,
 .three,
@@ -92,12 +93,30 @@ h1,h2{
     font-family: 'Merriweather', serif;
     text-align: center;
     padding: 1rem;
+    word-wrap:break-word;
     
 }
 h1{
-    font-size: 3rem;
+    font-size: 2rem;
+    margin-inline: auto;
 }
 h2{
-    font-size: 2rem;
+    font-size: 2vw;
     text-decoration: underline;
 }
+ .content::-webkit-scrollbar
+{
+  width: 1.2vw;
+}
+.content::-webkit-scrollbar-track
+{
+  background-color: silver;
+  border-radius: 1rem;
+  border: 1px solid black;
+}
+.content::-webkit-scrollbar-thumb
+{
+  background: linear-gradient(red,pink,blue);
+  height: 3rem;
+  border-radius: 1rem;
+} 

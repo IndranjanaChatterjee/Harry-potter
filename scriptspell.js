@@ -1,5 +1,5 @@
 const spells = document.querySelectorAll(".s");
-let i = 1;
+let i = 0;
 const btn = document.querySelector(".next");
 const back = document.querySelector(".back");
 btn.addEventListener("click", () => {
